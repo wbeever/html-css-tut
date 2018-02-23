@@ -1,0 +1,81 @@
+h1 {
+    color:purple;
+}
+
+a:hover {
+    color:blue;
+}
+
+a:active {
+    color:green;
+}
+
+a:visited {
+    color:red;
+}
+
+body {
+background:gainsboro;
+}
+
+div#wrapper {
+margin:auto;
+background:white;
+width:800px;
+height:1000px;
+}
+
+header {
+    display: block;
+    padding: 0px 0px 70px 20px;
+    text-align: center;
+}
+
+#websiteLogo {
+    float: left;
+}
+
+#horzNav {
+    display: block;
+    padding: 10px 20px 10px 5px;
+    background: rgb(121, 136, 177);
+}
+
+#horzNav a {
+    text-decoration: none;
+    padding: 0px 0px 0px 20px;
+    color: wheat
+}
+
+main {
+    padding: 20px 20px 20px 20px;
+    background: tan;
+}
+
+aside {
+    background: slateblue;
+}
+
+#orderedLists {
+    background: yellow;
+}
+
+#uLists2 {
+    list-style-type: circle; /*many options available*/
+}
+
+#tableData {
+    width: 300px;
+    border: 3px solid blue;
+}
+
+#tableData td, th {
+    border: 1px solid tomato;
+}
+
+footer {
+    background: darkolivegreen;
+    color: lightgreen;
+    padding: 5px 10px 15px 20px;
+    text-align: center;
+}

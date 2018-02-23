@@ -1,0 +1,54 @@
+@import "heading.css";
+/*@import "paragraph.css";*/
+@import "borders.css";
+@import "fonts.css";
+
+* { 
+    font-family: 'Arial Black';
+}
+
+div * {
+    font-family: 'Comic Sans MS';
+}
+
+.sitelink {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tonyquote {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: blueviolet;
+}
+
+p.sitelink {
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    color: green;
+}
+
+span#tonyname {
+    font-family: 'Segoe UI', sans-serif;
+    color: firebrick;
+}
+
+#tutorials ol li {
+    color: purple
+}
+
+h3 + p {
+    font-style: italic;
+}
+
+h3 + p > a {
+    color: red;
+}
+
+p[class] {
+    background: lightgray;
+}
+
+*[alt~="nintendo"] {
+    background: orange;
+}
+
+
+

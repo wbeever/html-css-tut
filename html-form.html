@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+        <style type="text/css">
+        h1 {color:red}
+        </style>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <meta name="description" contect="Website Description" />
+        <meta name="keywords" content="searchable words" />
+
+        <title>Test Website</title>
+
+    </head>
+    <body>
+        <form action="file.target" method="post">               <!-- method="get" -->
+            <b>Imformation to get</b><br/>                      
+            <input type="text" name="data" size=40><br/>        <!-- text area -->
+            <input type="password" name="data" size=40><br/>    <!-- hides input -->
+            <input type="radio" name="data" value="Radio1"/>radio1
+            <input type="radio" name="data" value="Radio2"/>radio2<br/>
+            <input type="checkbox" name="data" value="Chk1"/>check1
+            <input type="checkbox" name="data" value="Chk2"/>check2<br/>
+            <select name="selectinput" name="data">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </select>
+            <textarea cols=40 rows=10 name="bigdata">Opening Text</textarea>
+            <input type="hidden" name="Submitted" value="true"/>
+            <input type="submit" value="Send"/>
+        </form>
+    </body>
+</html>

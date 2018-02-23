@@ -1,0 +1,15 @@
+#lorem {
+    /* padding: top_px rt_px bot_px lt_px; | padding: top&bot_px rt&lt_px*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 20px;
+
+    margin: 10px;
+
+    border-top: 5px solid orange;
+    border-bottom: 5px dotted brown;
+
+    background: aquamarine url("toby.jpg") repeat;
+
+}
